@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shahid aur js</title>
+</head>
+<body>
+    
+</body>
+<script>
+    let first = document.createElement("div");
+    console.log(first);
+    first.className = "shahid"
+    first.id = Math.floor( Math.random()*10);
+    first.style.background = "green"
+    first.style.padding = "20px"
+    
+    // for adding text:-
+    let addText = document.createTextNode("shahid is focused and he learn well");
+    first.appendChild(addText)
+    // attach with document
+    document.body.appendChild(first);
+</script>
+</html>
